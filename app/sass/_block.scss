@@ -1,0 +1,21 @@
+/**
+  * Block Layout;
+  */
+@mixin block($fontSize,$index) {
+    font-size: $fontSize;
+    height: $fontSize * $index;
+    font-weight: 700;
+    font-family: roboto;
+      text-align: center;
+        &:nth-child(odd) {
+          background-color: #509cf6;
+          color: #01d2d9;
+        }
+        &:nth-child(even) {
+          background-color: #01d2d9;
+          color: #509cf6;
+        }
+    span {
+     line-height: $fontSize * $index;
+    }
+}
