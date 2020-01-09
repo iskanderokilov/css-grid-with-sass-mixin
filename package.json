@@ -1,7 +1,7 @@
 {
 	"name": "css-grid-with-sass-mixin",
 	"version": "1.0.0",
-	"description": "Start CSS grid Layouts Template mir Sass-Mixins",
+	"description": "Start CSS grid Layouts Template with Sass-Mixins",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"
